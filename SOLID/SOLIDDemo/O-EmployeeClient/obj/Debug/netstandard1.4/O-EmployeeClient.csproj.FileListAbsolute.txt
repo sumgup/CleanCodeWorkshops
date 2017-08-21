@@ -1,0 +1,2 @@
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\O-EmployeeClient\bin\Debug\netstandard1.4\O-EmployeeClient.deps.json
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\O-EmployeeClient\obj\Debug\netstandard1.4\O-EmployeeClient.AssemblyInfo.cs

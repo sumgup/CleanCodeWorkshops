@@ -1,0 +1,5 @@
+c:\users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.deps.json
+c:\users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.runtimeconfig.json
+c:\users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.1\ConsoleApp.runtimeconfig.dev.json
+c:\users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.1\ConsoleApp.AssemblyInfo.cs
