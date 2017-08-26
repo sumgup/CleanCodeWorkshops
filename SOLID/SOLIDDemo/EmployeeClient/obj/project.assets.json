@@ -3711,9 +3711,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmployeeClient.csproj",
-      "projectName": "S-EmployeeClient",
-      "projectPath": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmployeeClient.csproj",
+      "projectUniqueName": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmailClient.csproj",
+      "projectName": "S-EmailClient",
+      "projectPath": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmailClient.csproj",
       "packagesPath": "C:\\Users\\sumit.gupta\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\obj\\",
       "projectStyle": "PackageReference",

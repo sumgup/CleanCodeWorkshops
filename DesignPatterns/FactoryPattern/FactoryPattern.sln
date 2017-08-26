@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckSimulator", "DuckSimulator\DuckSimulator.csproj", "{6C96A3DE-759C-41FD-8808-5F2338883683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSaveStrategy", "FileSaveStrategy\FileSaveStrategy.csproj", "{86C4C264-E211-4C0A-B394-B6554A7E34FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSaveStrategyClient", "FileSaveStrategyClient\FileSaveStrategyClient.csproj", "{52A8B5F3-9DDB-46EE-B63A-9D9560CC4FF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6C96A3DE-759C-41FD-8808-5F2338883683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C96A3DE-759C-41FD-8808-5F2338883683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C96A3DE-759C-41FD-8808-5F2338883683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86C4C264-E211-4C0A-B394-B6554A7E34FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86C4C264-E211-4C0A-B394-B6554A7E34FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86C4C264-E211-4C0A-B394-B6554A7E34FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86C4C264-E211-4C0A-B394-B6554A7E34FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A8B5F3-9DDB-46EE-B63A-9D9560CC4FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A8B5F3-9DDB-46EE-B63A-9D9560CC4FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A8B5F3-9DDB-46EE-B63A-9D9560CC4FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A8B5F3-9DDB-46EE-B63A-9D9560CC4FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2251,17 +2251,17 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "S-EmployeeClient/1.0.0": {
+      "S-EmailClient/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.4",
         "dependencies": {
           "NETStandard.Library": "1.6.1"
         },
         "compile": {
-          "bin/placeholder/S-EmployeeClient.dll": {}
+          "bin/placeholder/S-EmailClient.dll": {}
         },
         "runtime": {
-          "bin/placeholder/S-EmployeeClient.dll": {}
+          "bin/placeholder/S-EmailClient.dll": {}
         }
       }
     }
@@ -7050,16 +7050,16 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "S-EmployeeClient/1.0.0": {
+    "S-EmailClient/1.0.0": {
       "type": "project",
-      "path": "../EmployeeClient/S-EmployeeClient.csproj",
-      "msbuildProject": "../EmployeeClient/S-EmployeeClient.csproj"
+      "path": "../EmployeeClient/S-EmailClient.csproj",
+      "msbuildProject": "../EmployeeClient/S-EmailClient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.0": [
       "Microsoft.NETCore.App >= 1.0.5",
-      "S-EmployeeClient >= 1.0.0"
+      "S-EmailClient >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7091,8 +7091,8 @@
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmployeeClient.csproj": {
-              "projectPath": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmployeeClient.csproj"
+            "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmailClient.csproj": {
+              "projectPath": "C:\\Users\\sumit.gupta\\Documents\\CleanCodeWorkshops\\SOLID\\SOLIDDemo\\EmployeeClient\\S-EmailClient.csproj"
             }
           }
         }

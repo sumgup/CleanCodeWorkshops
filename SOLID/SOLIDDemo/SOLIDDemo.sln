@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S-EmployeeClient", "EmployeeClient\S-EmployeeClient.csproj", "{DF2BFB98-2B34-422D-9BB3-53BDCD1A825D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "S-EmailClient", "EmployeeClient\S-EmailClient.csproj", "{DF2BFB98-2B34-422D-9BB3-53BDCD1A825D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C5CD2F31-54FC-4A26-A74A-51530344CAEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O-EmployeeClient", "O-EmployeeClient\O-EmployeeClient.csproj", "{0F9338DE-E28A-4ED1-A6C0-75F4B43AAB91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "O-EmployeeClient", "O-EmployeeClient\O-EmployeeClient.csproj", "{0F9338DE-E28A-4ED1-A6C0-75F4B43AAB91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F9DA54B-CC6A-4DBC-BFDE-0D9406ABAFC0}
 	EndGlobalSection
 EndGlobal

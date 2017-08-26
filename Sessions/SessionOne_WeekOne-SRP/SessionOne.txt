@@ -1,5 +1,7 @@
 1. Introduction - Clean Code workshop
 
+SOLID, Design Patterns 
+
 2. Robert Martin
 
 3. Single Responsibility Principle   
@@ -9,3 +11,5 @@ https://www.youtube.com/watch?v=Gt0M_OHKhQE
 4. Code Demo -> SingleResponsibility
 
 https://github.com/sumit4palz/CleanCodeWorkshops/tree/master/SOLID/SOLIDDemo/EmployeeClient
+
+5. How to run future workshops

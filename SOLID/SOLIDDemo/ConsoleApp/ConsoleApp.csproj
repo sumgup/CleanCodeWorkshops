@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EmployeeClient\S-EmployeeClient.csproj" />
+    <ProjectReference Include="..\EmployeeClient\S-EmailClient.csproj" />
   </ItemGroup>
 
 </Project>
