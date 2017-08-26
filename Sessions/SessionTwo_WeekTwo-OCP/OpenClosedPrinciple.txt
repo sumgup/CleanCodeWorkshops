@@ -24,3 +24,14 @@ satisfy those changes. In other words, we are able to change what the module doe
 They are closed for modification. Extending the behavior of a module does not result in changes
 to the source, or binary, code of the module. The binary executable version of the
 modulewhether in a linkable library, a DLL, or a .EXE fileremains untouched.
+
+
+==============
+
+ENDING
+
+https://www.agilealliance.org/
+
+TDD
+ATDD
+BDD

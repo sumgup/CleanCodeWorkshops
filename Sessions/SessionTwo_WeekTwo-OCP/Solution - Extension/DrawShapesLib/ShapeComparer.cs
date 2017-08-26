@@ -19,7 +19,7 @@ namespace DrawShapesLib
 
         static ShapeComparer()
         {
-            // TODO : Can be moved outside
+            // TODO : Should be moved outside
             priorities.Add(typeof(Circle), 1);
             priorities.Add(typeof(Square), 2);
         }
