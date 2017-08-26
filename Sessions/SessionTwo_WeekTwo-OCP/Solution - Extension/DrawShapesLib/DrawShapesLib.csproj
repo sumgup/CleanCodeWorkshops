@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="DrawAllShapes.cs" />
     <Compile Include="IShape.cs" />
+    <Compile Include="ShapeComparer.cs" />
     <Compile Include="Square.cs" />
     <Compile Include="Circle.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
