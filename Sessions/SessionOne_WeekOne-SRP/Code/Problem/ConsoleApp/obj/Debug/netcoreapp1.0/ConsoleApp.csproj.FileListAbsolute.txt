@@ -1,0 +1,35 @@
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.deps.json
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.runtimeconfig.json
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.runtimeconfig.dev.json
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.dll
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.pdb
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.dll
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.pdb
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\S-EmployeeClient.dll
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\S-EmployeeClient.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.deps.json
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.runtimeconfig.json
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.runtimeconfig.dev.json
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\S-EmailClient.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\SOLID\SOLIDDemo\ConsoleApp\bin\Debug\netcoreapp1.0\S-EmailClient.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.deps.json
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.runtimeconfig.json
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.runtimeconfig.dev.json
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\ConsoleApp.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\S-EmailClient.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\bin\Debug\netcoreapp1.0\S-EmailClient.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.AssemblyInfo.cs
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionOne_WeekOne-SRP\Code\ConsoleApp\obj\Debug\netcoreapp1.0\ConsoleApp.pdb

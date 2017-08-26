@@ -1,0 +1,7 @@
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\bin\Debug\netstandard1.4\EmployeeClient.deps.json
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\bin\Debug\netstandard1.4\EmployeeClient.dll
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\bin\Debug\netstandard1.4\EmployeeClient.pdb
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\obj\Debug\netstandard1.4\EmployeeClient.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\obj\Debug\netstandard1.4\EmployeeClient.AssemblyInfo.cs
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\obj\Debug\netstandard1.4\EmployeeClient.dll
+C:\Users\sumit.gupta\documents\visual studio 2017\Projects\SOLIDDemo\EmployeeClient\obj\Debug\netstandard1.4\EmployeeClient.pdb
