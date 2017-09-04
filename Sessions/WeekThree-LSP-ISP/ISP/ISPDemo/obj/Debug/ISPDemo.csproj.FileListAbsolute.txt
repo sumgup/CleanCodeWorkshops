@@ -1,0 +1,2 @@
+C:\Users\sumit.gupta\AppData\Local\Temporary Projects\ISPDemo\obj\Debug\ISPDemo.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\AppData\Local\Temporary Projects\ISPDemo\obj\Debug\ISPDemo.csproj.CoreCompileInputs.cache

@@ -25,6 +25,8 @@ namespace DrawShapesLib
                     square.DrawSquare();
                 }
 
+           
+
                 // Add if for Triangle?
 
                 //    Of course, this program is only a simple example. In real life, the switch statement in the

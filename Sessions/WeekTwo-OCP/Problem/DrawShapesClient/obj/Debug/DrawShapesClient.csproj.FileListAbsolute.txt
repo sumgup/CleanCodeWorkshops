@@ -7,3 +7,12 @@ C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionTwo_WeekTwo-OC
 C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionTwo_WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.csproj.CoreCompileInputs.cache
 C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionTwo_WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.exe
 C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\SessionTwo_WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\bin\Debug\DrawShapesClient.exe.config
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\bin\Debug\DrawShapesClient.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\bin\Debug\DrawShapesClient.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\bin\Debug\DrawShapesLib.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\bin\Debug\DrawShapesLib.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekTwo-OCP\Problem\DrawShapesClient\obj\Debug\DrawShapesClient.pdb

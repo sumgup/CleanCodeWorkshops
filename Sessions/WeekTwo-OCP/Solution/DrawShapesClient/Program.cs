@@ -22,11 +22,14 @@ namespace DrawShapesClient
             square.ItsSide = 20;
 
             // TODO : Demo Add triangle
+            var tri = new Triangle();
+
 
             var list = new List<object>();
 
             list.Add(circle);
             list.Add(square);
+            list.Add(tri);
 
             drawShapes.DrawAllShapes(list);
 

@@ -1,0 +1,16 @@
+Liskov Substitution Principle
+===================================
+Subtypes must be substitutable for their base types.
+
+Example
+==========
+
+1. Shape example 
+2. Square example
+
+
+===========================================================
+
+Interface Segregation Principle
+
+Clients should not be forced to depend on methods they do not use.

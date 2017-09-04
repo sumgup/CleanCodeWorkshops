@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ISPDemo.Transaction">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transcation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISPDemo.DepositTransaction">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>DepositTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISPDemo.WithdrawlTransaction">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DepositTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISPDemo.TransferTransaction">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransferTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ISPDemo.UI">
+    <Position X="3.5" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISPDemo.IDepositUI">
+    <Position X="1.25" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDepositUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISPDemo.IWithdrawlUI">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWithdrawlUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISPDemo.ITransferUI">
+    <Position X="6.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITransferUI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

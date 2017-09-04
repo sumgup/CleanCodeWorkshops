@@ -1,6 +1,6 @@
 The Open/Closed Principle (OCP)
-Software entities (classes, modules, functions, etc.) should be open for extension but
-closed for modification.
+Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+
 =================
 
 When a single change to a program results in a cascade of changes to dependent modules, the
@@ -30,8 +30,11 @@ modulewhether in a linkable library, a DLL, or a .EXE fileremains untouched.
 
 ENDING
 
+1. 
 https://www.agilealliance.org/
 
-TDD
-ATDD
-BDD
+2. RoadMap :
+
+1. Workshop on Object oriented design - Using BDD
+2. Workshop of Functional programming - 
+
