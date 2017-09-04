@@ -5,12 +5,20 @@ Subtypes must be substitutable for their base types.
 Example
 ==========
 
-1. Shape example 
-2. Square example
+1. Shape example  -> Look at ShapeBase.cs
+2. Square example -> Look at Rectangle.cs > Program.cs
 
 
-===========================================================
+-----------------------------------------------------------------------------------
 
 Interface Segregation Principle
-
+===================================
 Clients should not be forced to depend on methods they do not use.
+
+
+--------
+Separate Clients Mean Separate Interfaces
+
+
+ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to them. Such shrunken interfaces are also called role interfaces. ISP is intended to keep a system decoupled and thus easier to refactor, change, and redeploy. 
+

@@ -28,13 +28,6 @@
       <FileName>TransferTransaction.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="ISPDemo.UI">
-    <Position X="3.5" Y="7.5" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>UI.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
   <Interface Name="ISPDemo.IDepositUI">
     <Position X="1.25" Y="5.5" Width="1.75" />
     <TypeIdentifier>

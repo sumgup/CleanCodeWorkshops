@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSPDemo
 {
-    public class Circle : ShapeBase
+    public class Circle : Shape
     {
         public Circle() : base(ShapeType.circle) { }
 

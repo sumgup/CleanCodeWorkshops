@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSPDemo
 {
-    public class Square : ShapeBase
+    public class Square : Shape
     {
         private Point topLeft;
         private double side;

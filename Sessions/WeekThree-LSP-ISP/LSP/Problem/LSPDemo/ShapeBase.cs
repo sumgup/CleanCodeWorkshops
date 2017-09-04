@@ -8,11 +8,11 @@ namespace LSPDemo
 {
     struct Point { double x, y; }
 
-    public class ShapeBase
+    public class Shape
     {
         private ShapeType type;
-        public ShapeBase(ShapeType t) { type = t; }
-        public static void DrawShape(ShapeBase s)
+        public Shape(ShapeType t) { type = t; }
+        public static void DrawShape(Shape s)
         {
 
             /* Liskov Substitution Principle
@@ -22,6 +22,9 @@ namespace LSPDemo
             // Violates OCP - Method is open for modification as new shapes get added
             // Square and Circle cannot be substituted for Shape is a violation
             // 
+
+            //The fact that Square and Circle cannot be substituted for Shape is a violation of LSP
+
             if (s.type == ShapeType.square)
                 (s as Square).Draw();
             else if (s.type == ShapeType.circle)
