@@ -29,6 +29,7 @@ namespace LSPDemo
                 (s as Square).Draw();
             else if (s.type == ShapeType.circle)
                 (s as Circle).Draw();
+
         }
     }
 }

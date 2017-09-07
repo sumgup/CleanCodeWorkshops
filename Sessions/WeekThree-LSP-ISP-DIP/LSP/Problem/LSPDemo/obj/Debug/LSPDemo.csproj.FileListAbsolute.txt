@@ -1,0 +1,14 @@
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\bin\Debug\LSPDemo.exe.config
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\bin\Debug\LSPDemo.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\bin\Debug\LSPDemo.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\obj\Debug\LSPDemo.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\obj\Debug\LSPDemo.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\obj\Debug\LSPDemo.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP\Problem\LSPDemo\obj\Debug\LSPDemo.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\bin\Debug\LSPDemo.exe.config
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\bin\Debug\LSPDemo.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\bin\Debug\LSPDemo.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\obj\Debug\LSPDemo.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\obj\Debug\LSPDemo.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\obj\Debug\LSPDemo.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\LSP\Problem\LSPDemo\obj\Debug\LSPDemo.pdb

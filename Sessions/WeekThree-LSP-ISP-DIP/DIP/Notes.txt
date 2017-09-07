@@ -1,0 +1,16 @@
+The Dependency-Inversion Principle
+==================================
+
+High-level modules should not depend on low-level modules. Both should depend
+on abstractions.
+
+Abstractions should not depend upon details. Details should depend upon
+abstractions.
+
+---------------------
+
+Consider the implications of high-level modules that depend on low-level modules. It is the high-level
+modules that contain the important policy decisions and business models of an application. These
+modules contain the identity of the application. Yet when these modules depend on the lower-level
+modules, changes to the lower-level modules can have direct effects on the higher-level modules and
+can force them to change in turn.

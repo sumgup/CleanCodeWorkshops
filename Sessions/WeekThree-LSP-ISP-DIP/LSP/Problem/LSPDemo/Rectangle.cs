@@ -11,12 +11,12 @@ namespace LSPDemo
     {
         private double width;
         private double height;
-        public double Width
+        public virtual double Width
         {
             get { return width; }
             set { width = value; }
         }
-        public double Height
+        public virtual double Height
         {
             get { return height; }
             set { height = value; }

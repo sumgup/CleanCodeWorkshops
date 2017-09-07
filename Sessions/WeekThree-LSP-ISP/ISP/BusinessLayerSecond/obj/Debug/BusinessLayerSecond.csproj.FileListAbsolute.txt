@@ -1,0 +1,5 @@
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\ISP\BusinessLayerSecond\bin\Debug\BusinessLayerSecond.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\ISP\BusinessLayerSecond\bin\Debug\BusinessLayerSecond.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\ISP\BusinessLayerSecond\obj\Debug\BusinessLayerSecond.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\ISP\BusinessLayerSecond\obj\Debug\BusinessLayerSecond.dll
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Sessions\WeekThree-LSP-ISP\ISP\BusinessLayerSecond\obj\Debug\BusinessLayerSecond.pdb
