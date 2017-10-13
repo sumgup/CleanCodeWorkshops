@@ -1,6 +1,0 @@
-C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\DesignPatterns\FactoryPattern\DuckSimulator\obj\Debug\DuckSimulator.csprojResolveAssemblyReference.cache
-C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\DesignPatterns\FactoryPattern\DuckSimulator\obj\Debug\DuckSimulator.csproj.CoreCompileInputs.cache
-C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\DesignPatterns\FactoryPattern\DuckSimulator\bin\Debug\DuckSimulator.dll
-C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\DesignPatterns\FactoryPattern\DuckSimulator\bin\Debug\DuckSimulator.pdb
-C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\DesignPatterns\FactoryPattern\DuckSimulator\obj\Debug\DuckSimulator.dll
-C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\DesignPatterns\FactoryPattern\DuckSimulator\obj\Debug\DuckSimulator.pdb
