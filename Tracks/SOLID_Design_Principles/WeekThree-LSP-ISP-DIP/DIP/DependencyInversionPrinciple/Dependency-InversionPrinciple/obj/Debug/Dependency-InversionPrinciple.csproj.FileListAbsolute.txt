@@ -1,0 +1,6 @@
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\DependencyInversionPrinciple\Dependency-InversionPrinciple\bin\Debug\Dependency-InversionPrinciple.exe.config
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\DependencyInversionPrinciple\Dependency-InversionPrinciple\bin\Debug\Dependency-InversionPrinciple.exe
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\DependencyInversionPrinciple\Dependency-InversionPrinciple\bin\Debug\Dependency-InversionPrinciple.pdb
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\DependencyInversionPrinciple\Dependency-InversionPrinciple\obj\Debug\Dependency-InversionPrinciple.csprojResolveAssemblyReference.cache
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\DependencyInversionPrinciple\Dependency-InversionPrinciple\obj\Debug\Dependency-InversionPrinciple.exe
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\DependencyInversionPrinciple\Dependency-InversionPrinciple\obj\Debug\Dependency-InversionPrinciple.pdb
