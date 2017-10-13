@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{96C423FC-3782-4841-B86D-C474CBEFDA62}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DIPSample/LeaveTypes/WorkFromHome.cs">
+    <Files>
+      <File FileName="DIPSample/Program.cs" Line="11" Column="44" />
+      <File FileName="DIPSample/ApplyLeave.cs" Line="6" Column="34" />
+      <File FileName="DIPSample/LeaveTypes/EarnedLeave.cs" Line="4" Column="39" />
+      <File FileName="DIPSample/LeaveTypes/CasualLeave.cs" Line="4" Column="39" />
+      <File FileName="DIPSample/Interface/IInform.cs" Line="4" Column="29" />
+      <File FileName="DIPSample/LeaveTypes/WorkFromHome.cs" Line="4" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DIPSample PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
