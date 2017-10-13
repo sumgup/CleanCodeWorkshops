@@ -1,1 +1,0 @@
-TDD = Your shit is defined by automated tests prior to coding it. BDD=The shit the customer wants is defined in automated acceptance tests. TDD answers the question "Did I construct this correctly?" BDD answers "Did we write the thing the customer wanted?"
