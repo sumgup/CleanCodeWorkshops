@@ -18,7 +18,6 @@ namespace DrawShapesClient
             square.ItsSide = 10;
             square.ItsSide = 20;
 
-
             var circle = new Circle();
             circle.Radius = 10;
             circle.XandY = new Tuple<double, double>(10, 10);

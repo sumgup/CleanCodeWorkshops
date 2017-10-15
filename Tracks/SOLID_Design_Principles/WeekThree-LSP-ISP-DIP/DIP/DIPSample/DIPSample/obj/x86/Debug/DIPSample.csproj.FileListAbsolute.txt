@@ -1,0 +1,5 @@
+/Users/ranjith.kumar/Projects/DIPSample/DIPSample/bin/Debug/DIPSample.exe
+/Users/ranjith.kumar/Projects/DIPSample/DIPSample/bin/Debug/DIPSample.pdb
+/Users/ranjith.kumar/Projects/DIPSample/DIPSample/obj/x86/Debug/DIPSample.csproj.CoreCompileInputs.cache
+/Users/ranjith.kumar/Projects/DIPSample/DIPSample/obj/x86/Debug/DIPSample.exe
+/Users/ranjith.kumar/Projects/DIPSample/DIPSample/obj/x86/Debug/DIPSample.pdb
