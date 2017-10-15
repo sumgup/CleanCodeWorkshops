@@ -33,13 +33,13 @@ For example, a particular function might modify a global variable or static vari
 
 Side effects are the most common way that a program interacts with the outside world (people, filesystems, other computers on networks). But the degree to which side effects are used depends on the programming paradigm. Imperative programming is known for its frequent utilization of side effects.
 
-Side Effect = Changing something somewhere.
+**Side Effect = Changing something somewhere.**
 
 ### Problems with Side Effects
 
+Less bugs, Easier to debug. 
+
 Effect free programming doesn't necessarily create programs which has better performance and consumes less memory however due to increase in parallelization and low cost of memory these concerns are taken care. 
-
-
 
 Programming without side effects means abstracting side effects away so that you could think about the problem in general -without worrying about the current state of the machine- and reduce dependencies across different modules of a program (be it procedures, classes or whatever else). By doing so, you'll make your program more reusable (as modules do not depend on a particular state to work).
 
@@ -48,4 +48,5 @@ Programming without side effects means abstracting side effects away so that you
 **Further Reading:**
 
 1. Functional vs Imperative :  https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/functional-programming-vs-imperative-programming
-2. ​
+
+   ​
