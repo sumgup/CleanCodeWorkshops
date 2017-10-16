@@ -11,7 +11,7 @@ Common programming paradigms include:
 
 - imperative which allows side effects,
 - functional which disallows side effects,
-- [declarative](https://www.wikiwand.com/en/Declarative_programming) which does not state the order in which operations execute,
+- declarative which does not state the order in which operations execute,
 - [object-oriented](https://www.wikiwand.com/en/Object-oriented_programming) which groups code together with the state the code modifies,
 - [procedural](https://www.wikiwand.com/en/Procedural_programming) which groups code into functions,
 - [logic](https://www.wikiwand.com/en/Logic_programming) which has a particular style of execution model coupled to a particular style of syntax and grammar, and
@@ -50,10 +50,6 @@ Functional programming is a **programming paradigm**—a style of building the s
 In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x will produce the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. 
 
 **Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.**
-
-### Computation
-
-Computation is any type of calculation that includes both arithmetical and non-arithmetical steps and follows a well-defined model understood and described as, for example, an algorithm.
 
 ### Mathematical Functions
 
