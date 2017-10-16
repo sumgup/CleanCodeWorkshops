@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using VehicleBuilder.Product;
+﻿using VehicleBuilder.Product;
 
 namespace VehicleBuilder.Builder
 {
@@ -12,8 +7,8 @@ namespace VehicleBuilder.Builder
       void  WithModel();
       void  WithEngine();
       void  WithTransmission();
-      void WithBody();
-      void WithAccessories();
+      void  WithBody();
+      void  WithAccessories();
       Vehicle GetVehicle();
     }
 }

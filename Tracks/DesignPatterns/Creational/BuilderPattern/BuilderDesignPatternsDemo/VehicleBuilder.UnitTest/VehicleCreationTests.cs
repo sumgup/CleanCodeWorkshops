@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using VehicleBuilder.Director;
 using VehicleBuilder.ConcreteBuilder;
 
@@ -11,12 +10,14 @@ namespace VehicleBuilder.UnitTest
         [TestMethod]
         public void CreateHeroVehicle()
         {
-            //Arrage
+            //Arrange
             var heroCreator = new VehicleCreator(new HeroBuilder());
             heroCreator.CreateVehicle();
+
             //Act
             var heroVehicle = heroCreator.GetVehicle();
             heroVehicle.ShowInfo();
+
             //Assert
             Assert.AreEqual("Plastic", heroVehicle.Body);
         }
@@ -24,13 +25,14 @@ namespace VehicleBuilder.UnitTest
         [TestMethod]
         public void CreateHondaVehicle()
         {
-            //Arrage
+            //Arrange
             var hondaCreator = new VehicleCreator(new HondaBuilder());
-           
             hondaCreator.CreateVehicle();
+
             //Act
             var hondaVehicle = hondaCreator.GetVehicle();
             hondaVehicle.ShowInfo();
+
             //Assert
             Assert.AreEqual("Honda", hondaVehicle.Model);
         }
@@ -38,9 +40,10 @@ namespace VehicleBuilder.UnitTest
         [TestMethod]
         public void CreateBajajVehicle()
         {
-            //Arrage
+            //Arrange
             var bajajCreator = new VehicleCreator(new BajajBuilder());
             bajajCreator.CreateVehicle();
+
             //Act
             var bajajVehicle = bajajCreator.GetVehicle();
             bajajVehicle.ShowInfo();

@@ -4,3 +4,10 @@ c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatte
 c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.csprojResolveAssemblyReference.cache
 c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.exe
 c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\bin\Debug\VehicleBuilder.exe.config
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\bin\Debug\VehicleBuilder.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\bin\Debug\VehicleBuilder.pdb
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.csprojResolveAssemblyReference.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.csproj.CoreCompileInputs.cache
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.exe
+C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\BuilderDesignPatternsDemo\VehicleBuilder\obj\Debug\VehicleBuilder.pdb
