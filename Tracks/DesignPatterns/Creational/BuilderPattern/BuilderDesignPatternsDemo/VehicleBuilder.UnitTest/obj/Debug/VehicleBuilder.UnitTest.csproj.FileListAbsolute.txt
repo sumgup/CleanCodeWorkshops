@@ -1,0 +1,8 @@
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\bin\Debug\VehicleBuilder.UnitTest.dll
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\bin\Debug\VehicleBuilder.UnitTest.pdb
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\bin\Debug\VehicleBuilder.exe
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\bin\Debug\VehicleBuilder.pdb
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\obj\Debug\VehicleBuilder.UnitTest.csprojResolveAssemblyReference.cache
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\obj\Debug\VehicleBuilder.UnitTest.dll
+c:\users\raghavendra.cv\documents\visual studio 2015\Projects\BuilderDesignPatternsDemo\VehicleBuilder.UnitTest\obj\Debug\VehicleBuilder.UnitTest.pdb
