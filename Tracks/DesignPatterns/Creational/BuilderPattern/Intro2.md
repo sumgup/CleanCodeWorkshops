@@ -14,7 +14,7 @@ The pattern organizes the object construction into a set of steps. To create an 
 
 ## **Class Diagram**
 
-![UML](C:\Users\sumit.gupta\Documents\CleanCodeWorkshops\Tracks\DesignPatterns\Creational\BuilderPattern\Images\UML.png)
+![UML](https://github.com/sumit4palz/CleanCodeWorkshops/blob/master/Tracks/DesignPatterns/Creational/BuilderPattern/Images/UML.png)
 
 #### Parts
 
@@ -22,7 +22,7 @@ Relationships :
 
 ConcreteBuilder <> Builder - Generalization relationship -  Concrete Builder is a type of Builder - 
 
-Builder <> Director - Aggregation Relationship - Whole/Part relationship - Builder is part of Director and can belong to other class too.
+Builder <> Director - Aggregation Relationship - Whole/Part relationship - Builder is part of Director and can belong to other class too.	
 
 - The **Builder** class specifies an abstract interface for creating parts of a Product object.
 - The **ConcreteBuilder** constructs and puts together parts of the product by implementing the Builder interface. It defines and keeps track of the representation it creates and provides an interface for saving the product.
