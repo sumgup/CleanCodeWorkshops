@@ -1,4 +1,4 @@
-## **Concepts**
+## **Introduction to Functional Programming**
 
 ### State
 A computer program stores data in variables, which represent storage locations in the computer's memory. **The contents of these memory locations, at any given point in the program's execution, is called the program's state.**
@@ -37,19 +37,9 @@ Side effects are the most common way that a program interacts with the outside w
 
 ### Problems with Side Effects
 
-Less bugs, Easier to debug. 
-
 Effect free programming doesn't necessarily create programs which has better performance and consumes less memory however due to increase in parallelization and low cost of memory these concerns are taken care. 
 
 Programming without side effects means abstracting side effects away so that you could think about the problem in general -without worrying about the current state of the machine- and reduce dependencies across different modules of a program (be it procedures, classes or whatever else). By doing so, you'll make your program more reusable (as modules do not depend on a particular state to work).
-
-### Functional Programming
-
-Functional programming is a **programming paradigm**—a style of building the structure and elements of computer programs—that treats **computation** as the evaluation of **mathematical functions** and avoids changing-state and mutable data. It is a **declarative programming paradigm**, which means programming is done with expressions or declarations instead of statements. 
-
-In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x will produce the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. 
-
-**Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.**
 
 ### Mathematical Functions
 
@@ -63,11 +53,13 @@ The same output may be produced by more than one input, but **each input gives o
 
 The input variable(s) are sometimes referred to as the argument(s) of the function.
 
-TODO :
+### Functional Programming
 
-1. How to view everything as function - Change in mindset
-2. ​
+Functional programming is a **programming paradigm**—a style of building the structure and elements of computer programs—that treats **computation** as the evaluation of **mathematical functions** and avoids changing-state and mutable data. It is a **declarative programming paradigm**, which means programming is done with expressions or declarations instead of statements. 
 
+In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x will produce the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state. 
+
+**Eliminating side effects, i.e. changes in state that do not depend on the function inputs, can make it much easier to understand and predict the behavior of a program, which is one of the key motivations for the development of functional programming.**
 
 
 **Further Reading:**
