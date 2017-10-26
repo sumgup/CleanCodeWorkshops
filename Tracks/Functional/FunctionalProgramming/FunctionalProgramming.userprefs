@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{59B39601-670F-49C7-A305-5AC3F7F7C6DD}|Default">
+  <MonoDevelop.Ide.ItemProperties.NonFunctionalProgramming PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LINQSample/Program.cs">
+    <Files>
+      <File FileName="NonFunctionalProgramming/ProgramDetails.cs" Line="8" Column="30" />
+      <File FileName="NonFunctionalProgramming/ProgramActions.cs" Line="31" Column="5" />
+      <File FileName="NonFunctionalProgramming/Program.cs" Line="16" Column="26" />
+      <File FileName="FunctionalProgramming/ProgramActions.cs" Line="26" Column="85" />
+      <File FileName="FunctionalProgramming/Program.cs" Line="19" Column="4" />
+      <File FileName="LINQSample/Employee.cs" Line="14" Column="36" />
+      <File FileName="LINQSample/Program.cs" Line="11" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FunctionalProgramming PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.LINQSample PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
