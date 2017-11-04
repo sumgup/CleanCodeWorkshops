@@ -4,6 +4,8 @@
 
 Encapsulates a method that has one parameter and returns a value of the type specified by the *TResult* parameter.
 
+Encapsulation (Dictionary Meaning) : The action of enclosing something in or as if in a capsule.
+
 C# Syntax
 
 ```csharp
@@ -96,8 +98,6 @@ Type: T : The parameter of the method that this delegate encapsulates.
 **Return Value**
 
 Type: TResult : The return value of the method that this delegate encapsulates.
-
-Encapsulation (Dictionary Meaning) : The action of enclosing something in or as if in a capsule.
 
 **Type Parameters**
 
