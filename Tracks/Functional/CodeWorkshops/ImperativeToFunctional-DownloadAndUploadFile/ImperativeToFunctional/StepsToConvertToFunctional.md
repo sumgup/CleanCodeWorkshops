@@ -6,7 +6,7 @@ Encapsulates a method that has one parameter and returns a value of the type spe
 
 C# Syntax
 
-```c#
+```csharp
 public delegate TResult Func<in T, out TResult>(
 	T arg
 )
