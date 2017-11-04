@@ -1,5 +1,3 @@
-Functional thinking : In functional paradigm, each operation can be simply represented by a functions, and functions can be composed:
-
 ### Prerequisites :
 
 ##### **Func**
@@ -217,47 +215,136 @@ public class TestAction1
 }
 ```
 
-### ﻿Steps 
+##### Func Example:
 
-1. Examine the caller code in Imperative class
-
-   ```c#
-    static void BuildDocument(Uri uri, FileInfo template)
-       {
-           DocumentBuilder builder = new DocumentBuilder(
-               new WebClient(), new DocumentConverter(template), new OneDriveClient());
-           builder.Build(uri);
-       }
-   ```
-
-This code can be converted into functional like this:
+When you use the Func<T, TResult> delegate, you do not have to explicitly define a delegate that encapsulates a method with a single parameter. For example, the following code explicitly declares a delegate named ConvertMethod and assigns a reference to the UppercaseString method to its delegate instance.
 
 ```c#
- static partial class Functional
+using System;
+
+delegate string ConvertMethod(string inString);
+
+public class DelegateExample
 {
-    internal static void BuildDocument(Uri uri, FileInfo template)
-    {
-        Action<Uri, FileInfo> buildDocument = CreateDocumentBuilder(
-            DownloadHtml, ConvertToWord, UploadToOneDrive);
-        buildDocument(uri, template);
-    }
+   public static void Main()
+   {
+      // Instantiate delegate to reference UppercaseString method
+      ConvertMethod convertMeth = UppercaseString;
+      string name = "Dakota";
+      // Use delegate instance to call UppercaseString method
+      Console.WriteLine(convertMeth(name));
+   }
+
+   private static string UppercaseString(string inputString)
+   {
+      return inputString.ToUpper();
+   }
 }
 ```
 
-Code for CreateDocumentBuilder
+The following example simplifies this code by instantiating the Func<T, TResult> delegate instead of explicitly defining a new delegate and assigning a named method to it.
 
 ```c#
- internal static Action<Uri, FileInfo> CreateDocumentBuilder(
-        Func<Uri, FileInfo> download, Func<FileInfo, FileInfo, FileInfo> convert, Action<FileInfo> upload)
-    {
-        return (uri, wordTemplate) =>
+using System;
+
+public class GenericFunc
+{
+   public static void Main()
+   {
+      // Instantiate delegate to reference UppercaseString method
+      Func<string, string> convertMethod = UppercaseString;
+      string name = "Dakota";
+      // Use delegate instance to call UppercaseString method
+      Console.WriteLine(convertMethod(name));
+   }
+
+   private static string UppercaseString(string inputString)
+   {
+      return inputString.ToUpper();
+   }
+}
+```
+
+### ﻿Steps 
+
+Functional thinking : In functional paradigm, each operation can be simply represented by a functions, and functions can be composed:
+
+What are the operations in this program?
+
+1. Download - DownloadHtml
+2. Convert - ConvertToWord
+3. Upload - UploadToOneDrive
+
+```c#
+	 public FileInfo DownloadHtml(Uri uri)
         {
-            FileInfo htmlDocument = download(uri);
-            FileInfo wordDocument = convert(htmlDocument, wordTemplate);
-            upload(wordDocument);
+            return default;
+        }
+
+        public FileInfo ConvertToWord(FileInfo htmlDocument)
+        {
+            return default;
+        }
+
+        public void UploadToOneDrive(FileInfo file)
+        {
+
+        }
+```
+Convert these three into func.
+
+```c#
+private void Foo()
+{
+  Func<Uri, FileInfo> downloadHtml = DownloadHtml;
+  Func<FileInfo, FileInfo> convert = ConvertToWord;
+  Action<FileInfo> upload = UploadToOneDrive; // Note :  We are using Action not func. Why?
+}
+```
+How do we build document using function above : 
+
+Refactor Foo to BuildDocument
+
+```c#
+  private void CreateDocumentBuilder(Func<Uri, FileInfo> downloadHtml, Func<FileInfo, FileInfo> convert, Action<FileInfo> upload)
+    {
+        var uri = new Uri("www.microsoft.com");
+        var htmlFile = downloadHtml(uri);
+        var convertedFile = convert(htmlFile);
+        upload(convertedFile);
+    }
+```
+Code above can be refactored to Action - which will take URI as input
+
+```c#
+private Action<Uri> CreateDocumentBuilder(Func<Uri, FileInfo> downloadHtml,
+      Func<FileInfo, FileInfo> convert, Action<FileInfo> upload)
+    {
+        return (uri) =>
+        {
+            var htmlFile = downloadHtml(uri);
+            var convertedFile = convert(htmlFile);
+            upload(convertedFile);
         };
     }
 ```
+Lets call BuildDocument:
 
-Key Learnings:
+```c#
+    private void CreateDocument()
+    {
+        Action<Uri> buildDocument = CreateDocumentBuilder(DownloadHtml, ConvertToWord, UploadToOneDrive);
+        buildDocument(new Uri("www.microsoft.com"));
+    }
+```
 
+
+### Key Learning:
+
+ **This demonstrates in C# functions are first class citizens just like objects.** Internally, CreateDocumentBuilder function composes the input functions and return a new function.
+
+### Additional Facts
+
+- Lambda expression and functional programming came from lambda calculus, which was invented in 1930s.
+- The first functional programming language, Lisp, was designed in 1950s. Lisp is also the second oldest high level programming language still widely used today. It is only 1 year younger than Fortran, an imperative programming language.
+- LINQ query expression is rooted in monad, a concept of category theory. Category theory was started in 1940s, and monad was introduced into category theory in 1950s. Then monad programming appeared in Opal language in 1980s. In 1990s it was already heavily used in Haskell language.
