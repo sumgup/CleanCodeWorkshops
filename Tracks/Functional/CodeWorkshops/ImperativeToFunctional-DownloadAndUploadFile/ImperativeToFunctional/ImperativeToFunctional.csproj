@@ -45,11 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AboutSample.md" />
-    <Compile Include="Functional.cs" />
     <Compile Include="Imperative.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="StepsToConvertToFunctioanl.md" />
+    <None Include="StepsToConvertToFunctional.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

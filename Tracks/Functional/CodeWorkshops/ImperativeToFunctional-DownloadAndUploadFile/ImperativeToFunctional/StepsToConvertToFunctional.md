@@ -346,5 +346,14 @@ Lets call BuildDocument:
 ### Additional Facts
 
 - Lambda expression and functional programming came from lambda calculus, which was invented in 1930s.
+
 - The first functional programming language, Lisp, was designed in 1950s. Lisp is also the second oldest high level programming language still widely used today. It is only 1 year younger than Fortran, an imperative programming language.
-- LINQ query expression is rooted in monad, a concept of category theory. Category theory was started in 1940s, and monad was introduced into category theory in 1950s. Then monad programming appeared in Opal language in 1980s. In 1990s it was already heavily used in Haskell language.
+
+  ​
+
+### Next Steps
+
+1. In the sample above provider can be interface - Upload to Google drive - Modify above sample to use interface.  
+2. Can we try implement method chaining for download, convert and upload?
+3. Create another sample to use LINQ based approach opposed to imperative.
+4. Drill down Lambda expression to use expression trees
