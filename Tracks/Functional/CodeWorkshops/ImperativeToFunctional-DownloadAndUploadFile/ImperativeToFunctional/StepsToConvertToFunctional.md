@@ -267,7 +267,7 @@ public class GenericFunc
 
 ### ﻿Steps 
 
-Functional thinking : In functional paradigm, each operation can be simply represented by a functions, and functions can be composed:
+**Functional thinking : In functional paradigm, each operation can be simply represented by a functions, and functions can be composed:**
 
 What are the operations in this program?
 
