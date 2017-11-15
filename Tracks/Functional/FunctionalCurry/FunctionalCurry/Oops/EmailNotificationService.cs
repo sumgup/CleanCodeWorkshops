@@ -47,6 +47,7 @@ namespace FunctionalCurry.Oops
                     MailMessage mail = new MailMessage(senderEmailId, userInfo.EmailId);
                     mail.Subject = emailDetails.Item1;
                     mail.Body = emailDetails.Item2;
+                    mail.IsBodyHtml = true;
                     smtpClient.Send(mail);
                 }
 

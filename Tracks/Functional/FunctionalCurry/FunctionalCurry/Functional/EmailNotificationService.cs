@@ -15,7 +15,14 @@ namespace FunctionalCurry.Functional
             Func<Tuple<string, int, string, string, string>> getSmtpServerDetails = () => GetSmtpServerDetails();
 
             return GetEmailNotificationService(getEmaDetails, getSmtpServerDetails);
+           // return getEmaDetails.Then(getSmtpServerDetails);
+           // return Componse(getEmaDetails, getSmtpServerDetails);
         }
+
+        //private static Func<UserInfo, Outcome> Then(this Func<UserInfo, Tuple<string, string>> getEmaDetails, Func<Tuple<string, int, string, string, string>> getSmtpServerDetails)
+        //{
+        //    return GetEmailNotificationService(getEmaDetails, getSmtpServerDetails);
+        //}
 
         private static Func<UserInfo, Outcome> GetEmailNotificationService(Func<UserInfo, Tuple<string, string>> getEmaDetails, Func<Tuple<string, int, string, string, string>> getSmtpDetails)
         {
@@ -34,6 +41,7 @@ namespace FunctionalCurry.Functional
                         MailMessage mail = new MailMessage(smtpDetails.Item5, userInfo.EmailId);
                         mail.Subject = emailDetails.Item1;
                         mail.Body = emailDetails.Item2;
+                        mail.IsBodyHtml = true;
                         smtpClient.Send(mail);
                     }
 
