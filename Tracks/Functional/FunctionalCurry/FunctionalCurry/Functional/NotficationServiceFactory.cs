@@ -3,11 +3,11 @@ using System;
 
 namespace FunctionalCurry.Functional
 {
-    public  class NotficationServiceFactory
+    public class NotficationServiceFactory
     {
 
 
-        public  Func<UserInfo, Outcome> GetNotificationService(string serviceName)
+        public Func<UserInfo, Outcome> GetNotificationService(string serviceName)
         {
             return (userInfo) =>
             {
@@ -23,9 +23,20 @@ namespace FunctionalCurry.Functional
                         return null;
                 }
             };
-            
+
         }
 
-        
+
+
+        public Func<Func<Tuple<string, int, string, string, string>>, Func<UserInfo, Outcome>> GetCurryStyleNotificationService()
+        {
+            return EmailNotificationService.GetComposedEmailNotificationServiceByCurryWay();
+        }
+
+        public  Func<Tuple<string, int, string, string, string>> GetSmtpDetails() => () => EmailNotificationService.GetSmtpServerDetails();
+
+
+
+
     }
 }

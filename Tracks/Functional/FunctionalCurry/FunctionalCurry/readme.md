@@ -1,10 +1,12 @@
 
 
-﻿# Curry Pattern in C##
+
+
+﻿# Currying And Partial Application in C Sharp#
 
 Curry is used  for dependency injection in functional programming
 
-hence we can use curry to change  signature transformation of delegate( function).
+hence we can use currying to change  signature transformation of delegate( function).
 
 Let's  start with  a simple  example:
 
@@ -33,6 +35,36 @@ int  a =2;
 int  b =3;
 int ans = curriedMultiplicationSignature(a)(b);
 ```
+
+Or  we do  currying for second scenario
+
+```c#
+Func<int, int, double> dividedSignature = (x, y) => y != 0 ? (x / (Convert.ToDouble(y))) : 0d;
+
+Func<Func<int>, Func<int, double>> curriedMultiplicationSignature = f1 =>
+                        {
+                            var x = f1();
+                            return y =>
+                            {
+                               return dividedSignature(x, y);
+                            };
+                        }; 
+
+```
+
+Now  user  This curry
+
+```
+Func<int> xValueRetrivalFunc = () => new System.Random(1).Next();
+var yValue = 6;
+var result = curriedMultiplicationSignature(xValueRetrivalFunc)(yValue);
+```
+
+This is called   Currying  Pattern 
+
+------
+
+Now we will See  **Partial Application**
 
 or we further  rectify  and rewrite
 
@@ -65,7 +97,20 @@ Now  print the table of 10 and table of 5
  }
 ```
 
+ This is  called the Partial  Application
+
+
+
+|            **Currying**            |         **Partial Application**          |
+| :--------------------------------: | :--------------------------------------: |
+|       Parameter pass at last       | parameter passed while doing composition |
+| result of sub methods are reusable | result of sub methods are  not reusable  |
+
+
+
 []: https://dotnetfiddle.net/H0jvHG	"Sample Code"
+
+
 
 Now  we  assume that we have function  to send notification for email and sms
 
@@ -76,7 +121,9 @@ Func<UserInfo,smtpServerDetail, fromAddress, subject,body , Outcome> EmailNotifi
 
 ```
 
-Now convert that function into  simple notification
+Now convert that function into  simple notification function which gives user info and return outcome
+
+so other required details will be injected implicitly while composition function in "**Partial Application way**"
 
 ```
 /// for SMS
@@ -113,4 +160,8 @@ public static void  Run(string serviceName)
     SendNotification(userInfo,notificationCurry);
 }
 ```
+
+ **Curry vs Partial Application Code**
+
+[https://dotnetfiddle.net/s39pY5]: 
 
