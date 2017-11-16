@@ -112,9 +112,7 @@ Now  print the table of 10 and table of 5
 
 []: https://dotnetfiddle.net/H0jvHG	"Sample Code"
 
-
-
-Now  we  assume that we have function  to send notification for email and sms
+Now  assume that we have function  to send notification for email and sms
 
 ```
 Func<UserInfo,smsApiDetail, fromPhoneNumber, smstext, Outcome> SmsNotification =.........
@@ -123,7 +121,7 @@ Func<UserInfo,smtpServerDetail, fromAddress, subject,body , Outcome> EmailNotifi
 
 ```
 
-Now convert that function into  simple notification function which gives user info and return outcome
+Now convert that function into simple notification function which takes userinfo as input and returns outcome
 
 so other required details will be injected implicitly while composition function in "**Partial Application way**"
 
