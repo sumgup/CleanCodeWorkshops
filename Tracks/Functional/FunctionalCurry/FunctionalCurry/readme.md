@@ -1,18 +1,12 @@
-
-
-
-
 ﻿# Currying And Partial Application in C Sharp#
- 
+
 Currying is when you break down a function that takes multiple arguments into a series of functions that take part of the arguments.  
 
-Curry is used  for dependency injection in functional programming
+Curry is used  for dependency injection in functional programming hence we can use currying to change  signature transformation of delegate( function).
 
-hence we can use currying to change  signature transformation of delegate( function).
+Let's  start with  a simple  example: It takes two integer as input and return int as output.
 
-Let's  start with  a simple  example:
-
-```
+```c#
 Func<int, int, int> MultiplicationSignature = (x, y) => x * y;
 ```
 
@@ -21,24 +15,33 @@ Now call this function as below :
 ```c#
  int  a =2;
  int  b =3;
- int ans  =MultiplicationSignature(a,b);
+ int ans = MultiplicationSignature(a,b);
 ```
 
-Now  we start making curry 
+Now we can also use the lambda syntax to build a multiplication function that within it returns a function that's just waiting for the other side of the multiplication expression. **Watch out syntax below!**
 
-```
+```c#
 Func<int, Func<int, int>> curriedMultiplicationSignature = x => y => x * y;
 ```
 
  Now I can write this my code  to execute  above function
 
-```
+```c#
 int  a =2;
 int  b =3;
 int ans = curriedMultiplicationSignature(a)(b);
 ```
 
-Or  we do  currying for second scenario
+The result is the same, it's just that the syntax looks unfamiliar.
+
+Now we can curry our curriedMultiplicationSignature by just supplying one argument and then use new mul(5) function as many times we want.
+
+```c#
+    var mul5 = curriedMultiplicationSignature(5);
+    int c = mul5(3); // 15
+    int d = mul5(6); // 30
+```
+Another example of currying.
 
 ```c#
 Func<int, int, double> dividedSignature = (x, y) => y != 0 ? (x / (Convert.ToDouble(y))) : 0d;
@@ -51,18 +54,15 @@ Func<Func<int>, Func<int, double>> curriedMultiplicationSignature = f1 =>
                                return dividedSignature(x, y);
                             };
                         }; 
-
 ```
 
-Now  user  This curry
+Now use curry created above.
 
-```
+```c#
 Func<int> xValueRetrivalFunc = () => new System.Random(1).Next();
 var yValue = 6;
-var result = curriedMultiplicationSignature(xValueRetrivalFunc)(yValue);
+var result = curriedMultiplicationSignature(xValueRetrivalFunc())(yValue);
 ```
-
-This is called   Currying  Pattern 
 
 ------
 
