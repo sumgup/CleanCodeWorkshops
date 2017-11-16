@@ -37,9 +37,9 @@ The result is the same, it's just that the syntax looks unfamiliar.
 Now we can curry our curriedMultiplicationSignature by just supplying one argument and then use new mul(5) function as many times we want.
 
 ```c#
-    var mul5 = curriedMultiplicationSignature(5);
-    int c = mul5(3); // 15
-    int d = mul5(6); // 30
+var mul5 = curriedMultiplicationSignature(5);
+int c = mul5(3); // 15
+int d = mul5(6); // 30
 ```
 Another example of currying.
 
@@ -70,7 +70,7 @@ Now we will See  **Partial Application**
 
 or we further  rectify  and rewrite
 
-```
+```c#
  int  a =2;
  int  b =3;
  var curriedMultiplicationSignatureWithA = curriedMultiplicationSignature(a);
@@ -79,14 +79,14 @@ int ans = curriedMultiplicationSignatureWithA(b);
 
 Let's have more example
 
-```
+```c#
 var  table10Func = curriedMultiplicationSignature(10);
 var  table5Func =  curriedMultiplicationSignature(5);
 ```
 
 Now  print the table of 10 and table of 5
 
-```
+```c#
 /// print table of 10
  for(int i=1;i<=10;i++)
  {
@@ -114,7 +114,7 @@ Now  print the table of 10 and table of 5
 
 Now  assume that we have function  to send notification for email and sms
 
-```
+```c#
 Func<UserInfo,smsApiDetail, fromPhoneNumber, smstext, Outcome> SmsNotification =.........
 
 Func<UserInfo,smtpServerDetail, fromAddress, subject,body , Outcome> EmailNotification =.........
@@ -125,7 +125,7 @@ Now convert that function into simple notification function which takes userinfo
 
 so other required details will be injected implicitly while composition function in "**Partial Application way**"
 
-```
+```c#
 /// for SMS
 var smsApiDetail = somthing;
 var fromPhoneNumber = "+919999999999";
@@ -145,7 +145,7 @@ Func<UserInfo, Outcome> emailNotificationCurry =(u) => EmailNotification(u,smtpS
 
 Now  use this function to send notification
 
-```
+```c#
 public static void  SendNotification(UserInfo user, Func<UserInfo, Outcome> notification  )
 {
      var result = notification(user);
