@@ -3,6 +3,8 @@
 
 
 ﻿# Currying And Partial Application in C Sharp#
+ 
+Currying is when you break down a function that takes multiple arguments into a series of functions that take part of the arguments.  
 
 Curry is used  for dependency injection in functional programming
 
