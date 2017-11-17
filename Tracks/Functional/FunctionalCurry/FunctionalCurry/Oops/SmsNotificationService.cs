@@ -22,7 +22,7 @@ namespace FunctionalCurry.Oops
             try
             {               
                 TwilioClient.Init(ACCOUNT_SID, AUTH_TOKEN); ;
-                var smsDetails = GetSmsDetaills(userInfo);
+                var smsDetails = GetSmsDetails(userInfo);
                 var message = MessageResource.Create(new PhoneNumber(userInfo.PhoneNumber), from: new PhoneNumber(smsDetails.Item1), body: smsDetails.Item2);
                 return  Outcome.Ok( $"message sent. sentId is {message.Sid}");
             }
@@ -37,7 +37,7 @@ namespace FunctionalCurry.Oops
 
 
 
-        private static Tuple<string, string> GetSmsDetaills(UserInfo userInfo)
+        private static Tuple<string, string> GetSmsDetails(UserInfo userInfo)
         {
             var messageBody = $"Hello {userInfo.FirstName}, this is test message from clean code";
             var fromNumber = "+919723812403";

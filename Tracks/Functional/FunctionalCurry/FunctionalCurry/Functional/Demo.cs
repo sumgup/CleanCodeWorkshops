@@ -9,19 +9,19 @@ namespace FunctionalCurry.Functional
         public static void Run()
         {
             IUserProvider userProvider = new UserProvider();
-            var notficationServiceFactory = new NotficationServiceFactory();
+            var notficationServiceFactory = new NotificationServiceFactory();
             var myController = new MyController(userProvider, notficationServiceFactory);
 
-            //myController.SendEmailNotication(1);
+            myController.SendEmailNotication(1);
             //myController.SendSmsNotication(1);
 
-            System.Console.WriteLine("~| SendNotificationBycurryMethod |~");
-            myController.SendNotificationBycurryMethod();
+            //System.Console.WriteLine("~| SendNotificationBycurryMethod |~");
+            //myController.SendNotificationBycurryMethod();
 
-            System.Console.WriteLine("");
-            System.Console.WriteLine("");
-            System.Console.WriteLine("~| SendNotificationByPartialApplicationMethod |~");
-            myController.SendNotificationByPartialApplicationMethod();
+            //System.Console.WriteLine("");
+            //System.Console.WriteLine("");
+            //System.Console.WriteLine("~| SendNotificationByPartialApplicationMethod |~");
+            //myController.SendNotificationByPartialApplicationMethod();
         }
 
     }

@@ -3,7 +3,7 @@ using System;
 
 namespace FunctionalCurry.Functional
 {
-    public class NotficationServiceFactory
+    public class NotificationServiceFactory
     {
 
 

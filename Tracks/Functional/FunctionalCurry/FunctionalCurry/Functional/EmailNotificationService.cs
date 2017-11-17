@@ -12,7 +12,8 @@ namespace FunctionalCurry.Functional
         public static Func<UserInfo, Outcome> GetComposedEmailNotificationService()
         {
             Console.WriteLine(" Email Composition Start ");
-            Func<UserInfo, Tuple<string, string>> getEmaDetails = (u) => GetEmailDetaills(u);
+            Func<UserInfo, Tuple<string, string>> getEmaDetails = (u) => GetEmailDetails(u);
+
 
             Func<Tuple<string, int, string, string, string>> getSmtpServerDetails = () => GetSmtpServerDetails();
             Console.WriteLine(" Email Composition End ");
@@ -49,7 +50,7 @@ namespace FunctionalCurry.Functional
                         
 
                         
-                        // smtpClient.Send(mail);
+                         smtpClient.Send(mail);
                     }
                     Console.WriteLine("*************** Core End  *********************");
                     return Outcome.Ok( "Email send successfully");
@@ -64,7 +65,7 @@ namespace FunctionalCurry.Functional
 
         #endregion
 
-        private static Tuple<string, string> GetEmailDetaills(UserInfo userInfo)
+        private static Tuple<string, string> GetEmailDetails(UserInfo userInfo)
         {
             Console.WriteLine("!!!!!!!! Email Details Start !!!!!!!! ");
             var messageBody = $"<div><p>Hello{userInfo.FirstName},</p><br><p> this is test message from clean code.</p></div>";
@@ -98,7 +99,7 @@ namespace FunctionalCurry.Functional
 
                 return (UserInfo userInfo) =>  //step 2
                 {
-                    var emailDetails = GetEmailDetaills(userInfo);
+                    var emailDetails = GetEmailDetails(userInfo);
 
                     return SendAnEmail(userInfo, emailDetails.Item1, emailDetails.Item2, smtpInfo.Item1, smtpInfo.Item2, smtpInfo.Item3, smtpInfo.Item4, smtpInfo.Item5);
                 };

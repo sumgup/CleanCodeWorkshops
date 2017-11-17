@@ -9,10 +9,10 @@ namespace FunctionalCurry.Oops
 {
     public class MyController
     {
-        private NotficationServiceFactory notficationServiceFactory;
+        private NotificationServiceFactory notficationServiceFactory;
         private IUserProvider userProvider;
 
-        public MyController(IUserProvider userProvider, NotficationServiceFactory notficationServiceFactory )
+        public MyController(IUserProvider userProvider, NotificationServiceFactory notficationServiceFactory )
         {
             this.notficationServiceFactory = notficationServiceFactory;
             this.userProvider = userProvider;
@@ -23,6 +23,7 @@ namespace FunctionalCurry.Oops
             var emailNotificationService= notficationServiceFactory.GetNotificationService("email");
             var userInfo = userProvider.GetUserById(userId);
             var result = emailNotificationService.SendNotification(userInfo);
+
             Console.WriteLine(result.IsSuccess ? result.Message : ((result.ErrorMessage != null && result.ErrorMessage.Length > 0) ? string.Join(" , ", result.ErrorMessage) : "Unknown Error"));
 
 

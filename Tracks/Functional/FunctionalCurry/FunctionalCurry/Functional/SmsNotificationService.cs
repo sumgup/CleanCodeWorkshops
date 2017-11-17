@@ -12,7 +12,7 @@ namespace FunctionalCurry.Functional
 
         public static Func<UserInfo, Outcome> GetComposedSmsNotificationService()
         {
-            Func<UserInfo, Tuple<string, string>> getSmsDetails = (u) => GetSmsDetaills(u);
+            Func<UserInfo, Tuple<string, string>> getSmsDetails = (u) => GetSmsDetails(u);
 
             Func<Tuple<string, string>> getTwilloServerDetails = () => GetTwilioConfigSetting();
 
@@ -44,7 +44,7 @@ namespace FunctionalCurry.Functional
 
 
 
-        private static Tuple<string, string> GetSmsDetaills(UserInfo userInfo)
+        private static Tuple<string, string> GetSmsDetails(UserInfo userInfo)
         {
             var messageBody = $"Hello {userInfo.FirstName}, this is test message from clean code";
             var fromNumber = "+919723812403";

@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Configuration;
 
 namespace FunctionalCurry.Oops
 {
-    public class NotficationServiceFactory
+    public class NotificationServiceFactory
     {
 
         public INotificationService GetNotificationService(string serviceName )

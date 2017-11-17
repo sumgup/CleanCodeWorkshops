@@ -25,7 +25,7 @@ Now call this function as below :
 Now  we start making curry 
 
 ```
-Func<int, Func<int, int>> curriedMultiplicationSignature = x => y => x * y;
+Func<int, Func<int, int>> curriedMultiplicationSignature = x =>(x, y) => MultiplicationSignature(x,y);
 ```
 
  Now I can write this my code  to execute  above function
@@ -49,7 +49,6 @@ Func<Func<int>, Func<int, double>> curriedMultiplicationSignature = f1 =>
                                return dividedSignature(x, y);
                             };
                         }; 
-
 ```
 
 Now  user  This curry
@@ -71,6 +70,7 @@ or we further  rectify  and rewrite
 ```
  int  a =2;
  int  b =3;
+ Func<int, Func<int, int>> curriedMultiplicationSignature = x => y => x * y;
  var curriedMultiplicationSignatureWithA = curriedMultiplicationSignature(a);
 int ans = curriedMultiplicationSignatureWithA(b);
 ```

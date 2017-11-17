@@ -6,10 +6,10 @@ namespace FunctionalCurry.Functional
     public class MyController
     {
 
-        private NotficationServiceFactory notficationServiceFactory;
+        private NotificationServiceFactory notficationServiceFactory;
         private IUserProvider userProvider;
 
-        public MyController(IUserProvider userProvider, NotficationServiceFactory notficationServiceFactory)
+        public MyController(IUserProvider userProvider, NotificationServiceFactory notficationServiceFactory)
         {
             this.notficationServiceFactory = notficationServiceFactory;
             this.userProvider = userProvider;

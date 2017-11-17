@@ -13,7 +13,7 @@ namespace FunctionalCurry.Oops
         public static void Run()
         {
             IUserProvider userProvider = new UserProvider();
-            var notificationProvider = new NotficationServiceFactory();
+            var notificationProvider = new NotificationServiceFactory();
             var controller = new MyController(userProvider, notificationProvider);
 
            controller.SendSmsNotication(1);
