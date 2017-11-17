@@ -37,7 +37,7 @@ namespace FunctionalCurry.Oops
            
             try
             {
-                var emailDetails = emailDetailsProvider.GetEmailDetaills(userInfo); ;
+                var emailDetails = emailDetailsProvider.GetEmailDetails(userInfo); ;
                 
                 using (var smtpClient = new SmtpClient(smtpHost, port))
                 {
