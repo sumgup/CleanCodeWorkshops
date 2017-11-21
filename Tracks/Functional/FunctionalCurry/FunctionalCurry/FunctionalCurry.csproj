@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\CloudStorageApiDetails.cs" />
     <Compile Include="Common\IUserProvider.cs" />
     <Compile Include="Common\Outcome.cs" />
     <Compile Include="Common\Result.cs" />
