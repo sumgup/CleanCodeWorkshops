@@ -14,10 +14,15 @@ namespace FunctionalCurry
           //  Oops.Demo.Run();
 
             /// functional stype
-           Functional.Demo.Run();
+           //Functional.Demo.Run();
+
+            HandOn.Demo.Run();
 
             Console.ReadLine();
 
         }
+
+
+        
     }
 }
