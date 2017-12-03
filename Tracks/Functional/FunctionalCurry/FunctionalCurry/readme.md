@@ -1,12 +1,8 @@
-
-
-
-
 ﻿# Currying And Partial Application in C Sharp#
 
-Curry is used  for dependency injection in functional programming
+In mathematics and computer science, currying is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 
-hence we can use currying to change  signature transformation of delegate( function).
+Can be understood as : If you give a function less arguments than it expects you get back another function that only expects the missing arguments.
 
 Let's  start with  a simple  example:
 
@@ -17,20 +13,20 @@ Func<int, int, int> MultiplicationSignature = (x, y) => x * y;
 Now call this function as below :
 
 ```c#
- int  a =2;
- int  b =3;
- int ans  =MultiplicationSignature(a,b);
+ int  a = 2;
+ int  b = 3;
+ int ans = MultiplicationSignature(a,b);
 ```
 
-Now  we start making curry 
+Now we start making curry 
 
-```
+```c#
 Func<int, Func<int, int>> curriedMultiplicationSignature = x =>(x, y) => MultiplicationSignature(x,y);
 ```
 
  Now I can write this my code  to execute  above function
 
-```
+```c#
 int  a =2;
 int  b =3;
 int ans = curriedMultiplicationSignature(a)(b);
@@ -51,7 +47,7 @@ Func<Func<int>, Func<int, double>> curriedMultiplicationSignature = f1 =>
                         }; 
 ```
 
-Now  user  This curry
+Now  use this curry
 
 ```
 Func<int> xValueRetrivalFunc = () => new System.Random(1).Next();
@@ -59,15 +55,17 @@ var yValue = 6;
 var result = curriedMultiplicationSignature(xValueRetrivalFunc)(yValue);
 ```
 
-This is called   Currying  Pattern 
+This is called  Currying  Pattern 
 
 ------
 
 Now we will See  **Partial Application**
 
+Calling (or applying) a curried function with one argument, is called [partial application](http://en.wikipedia.org/wiki/Partial_application).
+
 or we further  rectify  and rewrite
 
-```
+```c#
  int  a =2;
  int  b =3;
  Func<int, Func<int, int>> curriedMultiplicationSignature = x => y => x * y;
@@ -77,7 +75,7 @@ int ans = curriedMultiplicationSignatureWithA(b);
 
 Let's have more example
 
-```
+```c#
 var  table10Func = curriedMultiplicationSignature(10);
 var  table5Func =  curriedMultiplicationSignature(5);
 ```
@@ -104,7 +102,7 @@ Now  print the table of 10 and table of 5
 |            **Currying**            |         **Partial Application**          |
 | :--------------------------------: | :--------------------------------------: |
 |       Parameter pass at last       | parameter passed while doing composition |
-| result of sub methods are reusable | result of sub methods are  not reusable  |
+| result of sub methods are reusable |  result of sub methods are not reusable  |
 
 
 
