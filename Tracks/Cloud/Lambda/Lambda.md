@@ -1,3 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## AWS Lambda
 
 **AWS Lambda** is an [event-driven](https://www.wikiwand.com/en/Event-driven_programming), [serverless computing](https://www.wikiwand.com/en/Serverless_computing) platform provided by [Amazon](https://www.wikiwand.com/en/Amazon.com) as a part of the [Amazon Web Services](https://www.wikiwand.com/en/Amazon_Web_Services). It is a compute service that runs code in response to [events](https://www.wikiwand.com/en/Event_(computing)) and automatically manages the compute resources required by that code. It was introduced in 2014.
@@ -28,6 +42,22 @@ You write code for your Lambda function in one of the languages AWS Lambda suppo
 2. **The context object** and how it interacts with Lambda at runtime – AWS Lambda also passes a  context  object to the handler function, as the second parameter. Via this context object your code can interact with AWS Lambda. For example, your code can find the execution time remaining before AWS Lambda terminates your Lambda function.
 3. Logging - Your Lambda function can contain logging statements. AWS Lambda writes these logs to CloudWatch Logs.
 4. Exceptions -  Your Lambda function needs to communicate the result of the function execution to AWS Lambda. Depending on the language you author your Lambda function code, there are different ways to end a request successfully or to notify AWS Lambda an error occurred during execution. If you invoke the function synchronously, then AWS Lambda forwards the result back to the client.
+
+
+
+#### Videos 
+
+AWS re:invent 2017: Getting Started with Serverless Architectures (CMP211)
+
+https://www.youtube.com/watch?v=0ytBy4-fvo4
+
+AWS re:invent 2017: Building .NET-based Serverless Architectures and Running .NET Co (ARC318)
+
+https://www.youtube.com/watch?v=0dLSC3o8UqI
+
+AWS re:invent 2017: Authoring and Deploying Serverless Applications with AWS SAM (SRV311)
+
+https://www.youtube.com/watch?v=pMyniSCOJdA
 
 **<u>Blog Task</u>**
 
