@@ -301,7 +301,7 @@ private void Foo()
   Action<FileInfo> upload = UploadToOneDrive; // Note :  We are using Action not func. Why?
 }
 ```
-How do we build document using function above : 
+How to build document using function above : 
 
 Refactor Foo to BuildDocument
 
