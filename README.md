@@ -6,12 +6,10 @@ Focused around following tracks :
 
 2. Design Patterns and Refactoring to Patterns
 
-3. CleanCode 
+3. Parallel Programming
 
-4. Parallel Programming
+4. SOLID Design Principles - Done (All the workshops are done)
 
-5. SOLID Design Principles - Done (All the workshops are done)
-
-6. TDD/BDD
+5. TDD
 
    ​
